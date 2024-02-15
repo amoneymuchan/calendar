@@ -1,0 +1,65 @@
+body {
+    font-family:Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    perspective: 800px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.prev-month{
+    color:#808080;
+}
+
+.next-month{
+    color:#808080;
+}
+
+.today {
+    background-color: black;
+    color: white;
+}
+
+.saturday {
+    color: blue;
+}
+
+.sunday {
+    color: red;
+}
+
+#calendar {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
